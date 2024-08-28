@@ -1,0 +1,235 @@
+header {
+    text-align:center; 
+    
+   }
+   
+   
+   header nav a {
+     
+     
+     
+     display:inline-block;
+     font-size:13px;
+     
+   
+     line-height:30px;
+     text-decoration:none;
+     text-transform:uppercase;
+     
+   }
+   
+   header nav a:hover {
+    color:black; 
+    text-decoration:underline;
+     
+   }
+   
+   body {
+     background-color: #dedede;
+     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+     padding: 20px;
+   }
+   
+   hr {
+     
+     width:220px;
+     margin-top:0px;
+   }
+   
+   #separator {
+     width:800px;
+     
+   }
+   
+   h1 {
+     
+     margin-bottom:20px;
+     color: #000000;
+     font-size: 72px;
+     font-weight: 400;
+     line-height: 1;
+     text-align: center;
+     text-transform: uppercase;
+     
+   }
+   
+   h2 {
+     color: #000000;
+     font-family: 'adelle', Baskerville, Palatino, serif;
+     font-size: 36px;
+     font-weight: 100;
+     padding:0px;
+     margin-bottom:15px;
+     line-height: 0;
+    
+     
+   }
+   
+   h2 a {
+     color:#313437;
+     text-decoration:none;
+     
+     
+   }
+   h2 a:hover {
+    text-decoration:underline; 
+    text-decoration:none;
+    
+     
+   }
+   
+   #date {
+     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+     color: #6a7179;
+     line-height: 1.75;
+     font-weight:100;
+    
+   }
+   
+   p {
+     color: #6a7179;
+     font-weight: 300;
+     line-height: 1.75;
+     margin-bottom: 25px;
+     z-index: 9;
+     
+     
+   }
+   
+   #content p {
+    text-align:center; 
+   }
+   
+   #content article p {
+    text-align: left;
+   }
+   
+   #content{
+    margin:auto;
+     max-width:800px;
+     padding:50px;
+     width:75%;
+     z-index: 10;
+     position: relative;
+   }
+
+
+
+   @import url('https://fonts.googleapis.com/css?family=Montserrat:600');
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background: #FFF;
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF;
+    color: #45555F;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 160%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+  
+  .footer__copy {
+    padding-top: 5rem;
+   color: #000000;
+    text-align: center;
+  }
+
+
+  #Logo {
+
+    height: 250px;
+    margin-left: 30%;
+
+  }
+
+  .imgabout {
+    position: absolute;
+    width: 40%;
+    margin-top: 22%;
+    margin-right: 200px;
+    z-index: 1;
+    
+  }
+
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background: #FFF;
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF;
+    color: #45555F;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 160%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  text-decoration: 0;
+  display: block;
+}
+
+.button{
+  color: #222;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  -webkit-transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  font-size: 0.875em;
+  width: 140px;
+  text-align: center;
+  padding: 10px 15px;
+}
+
+.button:hover{
+  text-decoration: none;
+  letter-spacing: 0;
+  color: white
+  
+}
+
+.button:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  background: #6284FF;
+  z-index: -1;
+  -webkit-transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.button:hover:after{
+  height: 100%;
+}
